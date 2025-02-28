@@ -145,7 +145,7 @@ gcc sorting_analysis.c -o sorting_analysis
 ./sorting_analysis
 ```
 
-**📊 Expected Output (Sample)**
+## 📊 Expected Output (Sample)
 ```css
 n       Insertion Sort Time (s)    Heap Sort Time (s)
 1000    0.002345                    0.000678
@@ -155,12 +155,12 @@ n       Insertion Sort Time (s)    Heap Sort Time (s)
 50000   5.672345                    0.098543
 ```
 
-**🔹 Observations:**
+## 🔹 Observations:
 
 Insertion Sort performs well for small n but slows down significantly for large inputs (O(n²)).
 Heap Sort is consistently faster (O(n log n)).
 
-**📈 Plotting Graph (Python)**
+## 📈 Plotting Graph (Python)
 
 To visualize the results, use the following Python script:
 
@@ -185,13 +185,13 @@ plt.grid()
 plt.show()
 ```
 
-**🔍 Key Findings**
+## 🔍 Key Findings
 
 Insertion Sort is inefficient for large datasets because of its O(n²) complexity.
 Heap Sort is significantly faster, handling large inputs efficiently.
 The graph visually demonstrates Heap Sort’s advantage over Insertion Sort.
 
-**📚 References**
+## 📚 References
 
 Insertion Sort - GeeksforGeeks
 
@@ -199,7 +199,7 @@ Heap Sort - GeeksforGeeks
 
 Sorting Algorithms - Wikipedia
 
-**✨ Conclusion**
+## ✨ Conclusion
 
 This project illustrates the performance differences between Insertion Sort and Heap Sort.
 For large datasets, Heap Sort is clearly superior in terms of efficiency. 🚀
